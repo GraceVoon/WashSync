@@ -76,7 +76,7 @@ small { font-size: 0.8rem; }
 
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; padding: 4px 8px 18px; }
 .brand-mark { display: inline-flex; }
-.brand-logo { width: 48px; height: 48px; border-radius: 12px; background: #f6f4f0; display: block; object-fit: cover; }
+.brand-logo { width: 48px; height: 48px; border-radius: 12px; display: block; object-fit: cover; }
 .mobile-head .brand-logo { width: 40px; height: 40px; border-radius: 10px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong { font-size: 1.1rem; letter-spacing: 0.2px; }
