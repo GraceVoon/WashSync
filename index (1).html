@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WashSync — Smart Campus Laundry (Prototype)</title>
+  <meta name="description" content="WashSync interactive prototype using simulated data. Not connected to real machines.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <div class="shell">
+    <!-- Desktop sidebar -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <a class="brand" href="#dashboard" data-nav="dashboard">
+        <span class="brand-mark"><img class="brand-logo" src="logo.png" alt="" width="48" height="48"></span>
+        <span class="brand-text"><strong>WashSync</strong><small>Campus laundry</small></span>
+      </a>
+      <nav id="sideNav" class="side-nav" aria-label="Main navigation"></nav>
+      <div class="sidebar-foot">
+        <span class="tag tag-proto">Prototype</span>
+        <p>Simulated data only. Not connected to real machines or any university system.</p>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="mobile-head">
+        <a class="brand brand-light" href="#dashboard" data-nav="dashboard">
+          <span class="brand-mark"><img class="brand-logo" src="logo.png" alt="" width="48" height="48"></span>
+          <span class="brand-text"><strong>WashSync</strong></span>
+        </a>
+        <span class="tag tag-proto">Prototype</span>
+      </header>
+
+      <div class="demo-bar" id="demoBar" aria-label="Prototype demo controls"></div>
+
+      <main id="app" tabindex="-1"></main>
+    </div>
+
+    <!-- Mobile bottom navigation -->
+    <nav class="bottom-nav" id="bottomNav" aria-label="Main navigation"></nav>
+  </div>
+
+  <div id="toasts" class="toasts" aria-live="polite" aria-atomic="false"></div>
+  <div id="modalRoot"></div>
+
+  <noscript>WashSync is an interactive prototype and needs JavaScript enabled.</noscript>
+  <script src="script.js"></script>
+</body>
+</html>
